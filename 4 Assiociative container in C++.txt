@@ -1,0 +1,20 @@
+1) Set
+2) Multiset 
+3) Map 
+4) Multimap 
+
+
+
+These are the following which comes under the associative containers  
+
+map: here each key we create must be unique. 
+ex: map geek_no; // Here first data type is key and second data type is value
+
+set: here also key we create must be unique but one important distinction from map is that here the value itself acts as a key so it means that elements in set are unique i.e. no repetition. 
+ex: set s; // value itself acts as a key.
+
+multimap : same as map but here key need not to be unique. 
+ex: multimap geeks_no;
+
+ multiset: same as set but here uniqueness of elements doesn’t matter i.e. we can have same element multiple time unlike set. 
+ex: multiset marks;
